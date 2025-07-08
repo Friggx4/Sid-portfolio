@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Siddhesh Raoandure | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    :root {
+      --primary: #ffffff;
+      --secondary: #f4f4f4;
+      --accent: #007acc;
+      --text: #333;
+      --card: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: var(--secondary);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem 2rem;
+      background: var(--primary);
+      border-bottom: 2px solid var(--accent);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: var(--accent);
+    }
+
+    header p {
+      color: #666;
+      margin-top: 0.5rem;
+    }
+
+    nav a,
+    .download-btn {
+      margin: 0.5rem;
+      color: var(--accent);
+      text-decoration: none;
+      display: inline-block;
+      font-weight: 500;
+    }
+
+    .download-btn {
+      padding: 0.5rem 1rem;
+      border: 1px solid var(--accent);
+      border-radius: 6px;
+      transition: all 0.3s;
+    }
+
+    .download-btn:hover {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+    }
+
+    .card {
+      background: var(--card);
+      border-left: 4px solid var(--accent);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    h2 {
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      padding: 0.4rem 0.8rem;
+      margin: 0.25rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+    }
+
+    ul li {
+      margin-bottom: 0.75rem;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    form input,
+    form textarea {
+      margin-bottom: 1rem;
+      padding: 0.75rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      background: #fff;
+      color: var(--text);
+    }
+
+    form button {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      padding: 0.75rem;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Siddhesh Satish Raoandure</h1>
+    <p>AI & Data Science | Cybersecurity | Full-stack Development</p>
+    <nav>
+      <a href="mailto:siddheshrao434@gmail.com">Email</a>
+      <a href="https://linkedin.com/in/siddhesh-raoandure-873249288" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Friggx4" target="_blank">GitHub</a>
+      <a href="resume.pdf" class="download-btn" download>Download Resume</a>
+    </nav>
+  </header>
+
+  <section class="card">
+    <h2>About Me</h2>
+    <p>Final-year B.E. student passionate about AI, data science, and cybersecurity. Recognized in national tech competitions and known for building impactful, ethical, and scalable solutions.</p>
+  </section>
+
+  <section class="card">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>Python</span><span>JavaScript</span><span>HTML/CSS</span><span>Flask</span>
+      <span>Firebase</span><span>Scikit-learn</span><span>UI/UX</span><span>Data Analysis</span>
+      <span>Machine Learning</span><span>Web Security</span><span>Chrome APIs</span><span>Git</span>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>AI Anti-Phishing Suite:</strong> ML-based extension that detects fake websites in real-time.</li>
+      <li><strong>Carpool App:</strong> Real-time location-aware platform with optimized route suggestions.</li>
+      <li><strong>Security Extensions:</strong> Chrome tools for blocking trackers and boosting productivity.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Certifications</h2>
+    <ul>
+      <li>SIH Finalist (2024)</li>
+      <li>IDE Bootcamp</li>
+      <li>Python for Everybody (Coursera)</li>
+      <li>Intro to ML (Great Learning)</li>
+      <li>Web Dev Bootcamp (Udemy)</li>
+      <li>Data Science Workshop (IIT Bombay)</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Contact Me</h2>
+    <form action="mailto:siddheshrao434@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Siddhesh Raoandure. Built with passion & purpose.</p>
+  </footer>
+</body>
+
+</html>
